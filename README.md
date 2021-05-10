@@ -53,12 +53,12 @@ COMMANDS
 To build planet neuroscientists, simply enter in the following command:
 
 ```bash
-$ pluto build planet-neuroscientists.ini
+$ pluto build planet.ini
 
 # OR
 # With a template, say "forty" or "top"
 
-$ pluto build planet-neuroscientists.ini -t forty
+$ pluto build planet.ini -t forty
 ```
 
 ## Update the planet
