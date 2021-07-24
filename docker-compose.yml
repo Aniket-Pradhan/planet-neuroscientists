@@ -1,0 +1,6 @@
+version: '3'
+services:
+  pluto:
+    build: .
+    volumes:
+      - .:/home/developer/planet-neuroscientists/:z
