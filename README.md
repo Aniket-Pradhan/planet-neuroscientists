@@ -4,13 +4,13 @@ A pluto instance which powers the whole planet.
 
 ## How to install/setup Pluto
 
-You can use Ruby's package manager: `gem` to install `pluto` on your machine.
+You can use Ruby's package manager: `gem` to install `pluto` on your machine. We recommend using [Bundler](https://bundler.io/) to install `pluto` and it's dependencies.
 
 ```bash
-$ gem install pluto
+$ bundle install
 ```
 
-Or you can install from the source directly. Refer [here](https://github.com/feedreader/pluto.starter) for the same.
+Or you can install `pluto` from the source directly. Refer [here](https://github.com/feedreader/pluto.starter) for the same.
 
 To verify your installation, simply type:
 
@@ -48,7 +48,7 @@ COMMANDS
     update, up, u - Update planet feeds
 ```
 
-## Build Planet-Neuroscietists
+## Build Planet-Neuroscientists
 
 To build planet neuroscientists, simply enter in the following command:
 
@@ -59,6 +59,10 @@ $ pluto build planet.ini
 # With a template, say "forty" or "top"
 
 $ pluto build planet.ini -t forty
+
+# To build using our custom Neuroscience theme:
+
+pluto build planet.ini -t neuroscience
 ```
 
 ## Update the planet
